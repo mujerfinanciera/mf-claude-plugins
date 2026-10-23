@@ -6,13 +6,23 @@ Marketplace de plugins de [Mujer Financiera](https://www.mujer-financiera.com) p
 
 | Plugin | Qué hace | Estado |
 |---|---|---|
-| `mf-finanzas` | Organiza tus finanzas personales con la metodología MF. Hoy incluye la skill **presupuesto-mf**. | Beta |
+| `mf-finanzas` | Organiza tus finanzas personales con la metodología MF. Hoy incluye la skill **presupuesto-mf**. | v0.1 |
 
-## Instalar (Claude Code)
+## Instalar
+
+En claude.ai o la app de Claude: **Customize > Plugins > Add > Add marketplace** y pegá `mujerfinanciera/mf-claude-plugins`.
+
+En Claude Code:
 
 ```
 /plugin marketplace add mujerfinanciera/mf-claude-plugins
 /plugin install mf-finanzas@mujer-financiera
+```
+
+O en un solo paso:
+
+```
+/plugin install mf-finanzas --marketplace mujerfinanciera/mf-claude-plugins
 ```
 
 Después, en cualquier conversación: "ayudame a armar mi presupuesto" o `/mf-finanzas:presupuesto-mf`.
@@ -43,13 +53,16 @@ mf-claude-plugins/
             └── presupuesto-mf/
                 ├── SKILL.md      # el método, paso a paso
                 ├── templates/    # plantillas de salida (md + csv)
-                └── examples/     # conversación de ejemplo
+                ├── examples/     # conversación de ejemplo
+                └── references/   # mapeo de categorías Nora → grupos MF
 ```
 
-## Roadmap
+## Próximamente
 
-- [ ] Sabrina valida `SKILL.md` (reglas 50/30/20 y 80/20, fondo de emergencia 1→3-6 meses, tono)
-- [ ] Probar con 3-5 alumnas beta y ajustar
-- [ ] Skills siguientes: `deudas-mf`, `ahorro-metas-mf`
-- [ ] Conector MCP con Nora (presupuesto sobre datos reales)
-- [ ] Enviar al directorio oficial de Anthropic
+- Más skills del método MF: deudas, ahorro por metas.
+- Integración con [Nora](https://nora-web-pi.vercel.app/), la app de finanzas de Mujer Financiera, para armar el presupuesto sobre tus gastos reales.
+- Disponible en el directorio de plugins de Claude.
+
+## Feedback
+
+Abrí un issue en este repo o escribinos a hola@mujer-financiera.com.
