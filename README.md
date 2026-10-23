@@ -53,8 +53,7 @@ mf-claude-plugins/
             └── presupuesto-mf/
                 ├── SKILL.md      # el método, paso a paso
                 ├── templates/    # plantillas de salida (md + csv)
-                ├── examples/     # conversación de ejemplo
-                └── references/   # mapeo de categorías Nora → grupos MF
+                └── examples/     # conversación de ejemplo
 ```
 
 ## Próximamente
