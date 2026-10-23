@@ -1,0 +1,21 @@
+{
+  "name": "mujer-financiera",
+  "owner": {
+    "name": "Mujer Financiera",
+    "url": "https://www.mujer-financiera.com"
+  },
+  "metadata": {
+    "description": "Plugins de Mujer Financiera para organizar tus finanzas personales con Claude.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "mf-finanzas",
+      "source": "./plugins/mf-finanzas",
+      "description": "Metodología Mujer Financiera para organizar tus finanzas personales: presupuesto, ahorro y fondo de emergencia.",
+      "version": "0.1.0",
+      "category": "productivity",
+      "tags": ["finanzas-personales", "presupuesto", "ahorro", "español"]
+    }
+  ]
+}

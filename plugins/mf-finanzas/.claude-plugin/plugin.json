@@ -1,0 +1,15 @@
+{
+  "name": "mf-finanzas",
+  "displayName": "Mujer Financiera · Finanzas personales",
+  "version": "0.1.0",
+  "description": "Organiza tus finanzas personales con la metodología Mujer Financiera: presupuesto, ahorro y fondo de emergencia, paso a paso y en español.",
+  "author": {
+    "name": "Mujer Financiera",
+    "email": "hola@mujer-financiera.com",
+    "url": "https://www.mujer-financiera.com"
+  },
+  "homepage": "https://www.mujer-financiera.com",
+  "repository": "https://github.com/mujerfinanciera/mf-claude-plugins",
+  "license": "Proprietary",
+  "keywords": ["finanzas personales", "presupuesto", "ahorro", "fondo de emergencia", "mujer financiera", "español"]
+}

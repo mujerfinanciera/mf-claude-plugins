@@ -1,0 +1,15 @@
+tipo,grupo,concepto,monto,estimado
+ingreso,Ingresos,Sueldo,,no
+gasto,Necesidades,Alquiler / expensas,,no
+gasto,Necesidades,Servicios (luz gas agua internet),,si
+gasto,Necesidades,Supermercado,,si
+gasto,Necesidades,Transporte,,si
+gasto,Necesidades,Salud / prepaga,,no
+gasto,Necesidades,Cuotas mínimas de deudas,,no
+gasto,Deseos,Salidas y delivery,,si
+gasto,Deseos,Ropa y compras,,si
+gasto,Deseos,Suscripciones,,no
+gasto,Deseos,Viajes y regalos,,si
+gasto,Ahorro y deudas,Fondo de emergencia,,no
+gasto,Ahorro y deudas,Pago extra de deudas,,no
+gasto,Ahorro y deudas,Metas,,no
