@@ -60,7 +60,6 @@ mf-claude-plugins/
 ## Próximamente
 
 - Más skills del método MF: deudas, ahorro por metas.
-- Integración con [Nora](https://nora-web-pi.vercel.app/), la app de finanzas de Mujer Financiera, para armar el presupuesto sobre tus gastos reales.
 - Disponible en el directorio de plugins de Claude.
 
 ## Feedback
